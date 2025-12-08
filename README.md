@@ -20,7 +20,7 @@ Each entry is something I found helpful, interesting, or worth exploring later.
   - **Version:** 1.0.24 (Released: Jul 26, 2021)
   - **Installation:**
     ```python
-    pip install english-dictionary==1.0.24
+    pip install english-dictionary
     ```
   - **Usage:**
   ```python
