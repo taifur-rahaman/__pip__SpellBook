@@ -28,3 +28,28 @@ Each entry is something I found helpful, interesting, or worth exploring later.
     english_dict = get_dict()
     english_dict["xylophone"]  # english_dict is a Python dictionary of English
   ```
+
+### **PyCountry**
+  Pycountry provides the ISO databases for the standards for country names, currencies, and languages.
+```markdown
+  - 639-3 Languages
+  - 3166 Codes for representation of names of countries and their subdivisions
+  - 3166-1 Countries ***(I just Used this one)***
+  - 3166-3 Deleted countries 
+  - 3166-2 Subdivisions of countries 
+  - 4217 Currencies 
+  - 15924 Scripts
+```
+- Version: 24.6.1 (Released: Jun 01, 2024)
+
+- Installation:
+  ```python
+  pip install pycountry
+  ```
+
+- Usage:
+  ```python
+  from pycountry import countries
+  for country in countries:
+      print(country.name)
+  ```
